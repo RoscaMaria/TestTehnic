@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+	<head>
+		<title>Pagina Scor</title>
+		<link href='stylePaginaScor.css' rel='stylesheet' type='text/css'>
+		<link href='triunghiScor.css' rel='stylesheet' type='text/css'>
+		<script src="funcSortare.js"></script>
+	</head>
+	<body>
+		<label>Scor:</label>
+		
+		<form  onsubmit="compareScore()" name="frm1" action = "" >
+			<input id = "quantity" type="number" name="quantity">
+			<input type="submit" name="submit" value="Submit" />
+		</form>
+		
+		<div class="row">
+			<div class="column" >
+				<div id = "lvl1">
+					<div class="arrow-up"></div>
+					<div class="arrow-down"></div>
+					<div class="arrow-left"></div>
+					<div class="arrow-right"></div>
+				</div>
+				<span class="dot">01</span>
+				<div class="line"></div>
+				<div class="vl"></div>
+				
+			</div>
+			<div class="column" style="background-color:#bbb;">
+				<div id = "lvl2">
+					<div class="arrow-up"></div>
+					<div class="arrow-down"></div>
+					<div class="arrow-left"></div>
+					<div class="arrow-right"></div>
+				</div>
+				<span class="dot2">02</span>
+				
+				<div class="vl1"></div>
+				<div class="line2"></div>
+			</div>
+			<div class="column" style="background-color:#ccc;">
+				<div id = "lvl3">
+					<div class="arrow-up"></div>
+					<div class="arrow-down"></div>
+					<div class="arrow-left"></div>
+					<div class="arrow-right"></div>
+				</div>
+				<span class="dot">03</span>
+				<div class="line"></div>
+				<div class="vl"></div>
+
+			</div>
+		</div>
+
+	</body>
+</html>
